@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: fr/pedrokarim/netbeansrpc/Installer.class
+OpenIDE-Module-Layer: fr/pedrokarim/netbeansrpc/layer.xml
+OpenIDE-Module-Localizing-Bundle: fr/pedrokarim/netbeansrpc/Bundle.properties
+OpenIDE-Module-Display-Category: RPC
+Built-By: PedroKarim64

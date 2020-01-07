@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.pedrokarim</groupId>
     <artifactId>NetbeansRPC</artifactId>
-    <version>1.0</version>
+    <version>1.2</version>
     <packaging>nbm</packaging>
     <build>
         <plugins>
@@ -101,7 +101,7 @@
         <dependency>
             <groupId>club.minnced</groupId>
             <artifactId>java-discord-rpc</artifactId>
-            <version>2.0.0</version>
+            <version>2.0.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.findbugs</groupId>
@@ -113,8 +113,52 @@
             <artifactId>org-openide-util</artifactId>
             <version>RELEASE110</version>
         </dependency>
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna-platform</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-netbeans-modules-projectapi</artifactId>
+            <version>RELEASE110</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-netbeans-modules-project-ant</artifactId>
+            <version>RELEASE110</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-filesystems</artifactId>
+            <version>RELEASE110</version>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-util-ui</artifactId>
+            <version>RELEASE110</version>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-util-lookup</artifactId>
+            <version>RELEASE110</version>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.modules</groupId>
+            <artifactId>org-netbeans-modules-hudson-mercurial</artifactId>
+            <version>RELEASE112</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <name>NetbeansRPC</name>
+    <description>Ce plugin exploite la RichPresence API de Discord et permet de partage activité de vos projects avec vos amis.</description>
 </project>
